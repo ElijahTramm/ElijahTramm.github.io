@@ -1,0 +1,8 @@
+nav_list_title: Navigation List
+links:
+
+- title: Publications
+  url: publications.html
+
+- title: Google Scholar
+  url: https://scholar.google.com/citations?user=vSls6cUAAAAJ&hl=en
