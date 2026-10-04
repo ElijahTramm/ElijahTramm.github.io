@@ -19,7 +19,7 @@ image_alt:
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Elijah Tramm
-profile_image:                                  # e.g. /assets/img/avatar/photo.jpg
+profile_image: /assets/img/avatar/elijah.jpg
 occupation: PhD Student, Department of Psychology, University of Wisconsin-Madison
 snippet:
 twitter: 
@@ -30,7 +30,7 @@ stackoverflow:
 website: 
 codepen: 
 medium: 
-email: 
+email: etramm@wisc.edu
 keybase: 
 pgp: 
 ctftime: 

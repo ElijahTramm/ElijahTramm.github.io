@@ -700,3 +700,17 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 
 /* Keep slide-in animations from causing sideways scrolling on phones */
 html, body { overflow-x: hidden; }
+
+/* Links in the home-page bio are always blue */
+.bio a:link, .bio a:visited, .bio a:active {
+  color: #1a5fb4;
+}
+.bio a:hover {
+  color: #1a5fb4;
+  text-decoration: underline;
+}
+
+/* Breathing room between the profile photo and the Publications box */
+.img-thumbnail.float-left {
+  margin-bottom: 1.5rem;
+}

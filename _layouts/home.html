@@ -27,9 +27,9 @@ layout: default
     {% if site.profile_image %}
     <div class="col-md-4">
       {% if site.animate %}
-        <img src="{{ site.profile_image }}" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white rounded" alt="...">
+        <img src="{{ site.profile_image }}" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white rounded" alt="Photo of {{ site.author }}">
       {% else %}
-        <img src="{{ site.profile_image }}" class="img-thumbnail float-left" alt="...">
+        <img src="{{ site.profile_image }}" class="img-thumbnail float-left" alt="Photo of {{ site.author }}">
       {% endif %}
     </div>
     {% endif %}
@@ -40,7 +40,7 @@ layout: default
       {% else %}
       <div class="card-body mt-0" style="color:{{theme.education-font-color}};">
       {% endif %}
-        <p style="color:{{theme.education-font-color}};">{{ content | markdownify}}<p>
+        <div class="bio" style="color:{{theme.education-font-color}};">{{ content | markdownify}}</div>
         {% if site.home_option == "education" %}
           {% include education.html %}
         {% endif %}
